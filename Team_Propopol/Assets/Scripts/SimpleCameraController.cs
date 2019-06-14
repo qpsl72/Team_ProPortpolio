@@ -74,6 +74,13 @@ namespace UnityTemplateProjects
         {
             m_TargetCameraState.SetFromTransform(transform);
             m_InterpolatingCameraState.SetFromTransform(transform);
+
+      
+        }
+
+        private void Start()
+        {
+            Debug.Log("깃허브 연동 테스트");
         }
 
         Vector3 GetInputTranslationDirection()
